@@ -1,0 +1,39 @@
+<!-- contato.html -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Tulip Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-pink-600">Tulip Home</a>
+      <nav class="space-x-4 hidden md:flex">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html" class="text-pink-600 font-semibold">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="py-16 px-6 max-w-xl mx-auto text-center">
+    <h1 class="text-3xl font-bold text-pink-600 mb-6">Fale com a gente</h1>
+    <p class="mb-8 text-gray-600">Preencha o formulário abaixo ou envie uma mensagem pelo WhatsApp.</p>
+    <form class="space-y-4">
+      <input type="text" placeholder="Seu nome" class="w-full p-3 border rounded-lg" required />
+      <input type="email" placeholder="Seu e-mail" class="w-full p-3 border rounded-lg" required />
+      <textarea placeholder="Mensagem" class="w-full p-3 border rounded-lg h-32" required></textarea>
+      <button class="bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-500">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="bg-white border-t mt-16 text-center py-4 text-sm text-gray-500">
+    © 2025 Tulip Home. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

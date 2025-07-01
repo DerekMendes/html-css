@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Tulip Home | Portfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 leading-relaxed scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+      <a href="#" class="text-2xl font-bold text-pink-600">Tulip Home</a>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#sobre" class="hover:text-pink-600">Sobre</a></li>
+        <li><a href="#servicos" class="hover:text-pink-600">Serviços</a></li>
+        <li><a href="#portfolio" class="hover:text-pink-600">Portfólio</a></li>
+        <li><a href="#contato" class="hover:text-pink-600">Contato</a></li>
+      </ul>
+      <button class="md:hidden" id="btnMobile">
+        <svg class="h-6 w-6 text-pink-600" fill="none" stroke="currentColor"
+             viewBox="0 0 24 24"><path stroke-linecap="round"
+             stroke-linejoin="round" stroke-width="2" d="M4 8h16M4
+             16h16"/></svg>
+      </button>
+    </div>
+    <div class="md:hidden hidden px-4 pb-4" id="mobileMenu">
+      <a href="#sobre" class="block py-2">Sobre</a>
+      <a href="#servicos" class="block py-2">Serviços</a>
+      <a href="#portfolio" class="block py-2">Portfólio</a>
+      <a href="#contato" class="block py-2">Contato</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="h-screen bg-pink-50 flex items-center justify-center text-center py-16">
+    <div class="max-w-2xl px-4">
+      <h1 class="text-5xl font-bold mb-4 text-pink-600">Tulip Home</h1>
+      <p class="text-lg mb-8">Design de interiores com personalidade, acolhimento e muito estilo.</p>
+      <a href="#contato" class="bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-500">
+        Solicite seu projeto
+      </a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-20 px-4 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-semibold text-pink-600 mb-4">Sobre a Tulip Home</h2>
+      <p>A Tulip Home nasceu do amor por transformar espaços em ambientes acolhedores, funcionais e com muita personalidade.</p>
+      <p class="mt-4">Atuamos com projetos personalizados para residências, priorizando estética, conforto e identidade de cada cliente.</p>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-20 px-4 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold text-pink-600 mb-8">Serviços</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Consultoria Online</h3>
+          <p>Aconselhamento profissional para seu projeto, de forma prática e acessível.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Projeto Completo</h3>
+          <p>Concepção total do ambiente: layout, acabamento, mobiliário e iluminação.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Acompanhamento de Obra</h3>
+          <p>Supervisão das etapas da obra, garantindo qualidade e cumprimento do projeto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section id="portfolio" class="py-20 px-4 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-semibold text-pink-600 mb-10 text-center">Portfólio</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Substitua src pelos caminhos das suas imagens -->
+        <div class="overflow-hidden rounded-lg shadow"><img src="proj1.jpg" alt="Projeto 1" class="w-full h-48 object-cover"/></div>
+        <div class="overflow-hidden rounded-lg shadow"><img src="proj2.jpg" alt="Projeto 2" class="w-full h-48 object-cover"/></div>
+        <div class="overflow-hidden rounded-lg shadow"><img src="proj3.jpg" alt="Projeto 3" class="w-full h-48 object-cover"/></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimento breve do portfolio -->
+  <section class="py-12 px-4 bg-pink-50">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="italic">“Projetos para famílias que buscam espaços acolhedores, com abertura dos ambientes e atenção aos detalhes.”</p>
+      <p class="mt-2">— Revisitando estilo de vida após mudanças, com foco em funcionalidade e beleza.</p>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-20 px-4 bg-white">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl text-pink-600 font-semibold mb-4">Vamos conversar?</h2>
+      <p class="mb-6">Preencha o formulário ou entre em contato via WhatsApp.</p>
+      <form class="grid gap-4">
+        <input type="text" placeholder="Seu nome" class="p-3 border rounded-lg" required/>
+        <input type="email" placeholder="Seu e-mail" class="p-3 border rounded-lg" required/>
+        <textarea placeholder="Sua mensagem" class="p-3 border rounded-lg h-32" required></textarea>
+        <button type="submit" class="bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-500">
+          Enviar mensagem
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-100 text-center text-sm text-gray-600">
+    © 2025 Tulip Home. Tudo com carinho e elegância.
+  </footer>
+
+  <script>
+    document.getElementById('btnMobile').onclick = () => {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    };
+  </script>
+</body>
+</html>
