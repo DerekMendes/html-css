@@ -30,12 +30,14 @@ body, html {
 
 header {
     background-image: linear-gradient(to top, var(--cor3), var(--cor2));
+    
 }
 h1 {
     padding: 30px; 
     color: white;
     text-align: center;
     text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.438);
+    
 }
 
 header p {
