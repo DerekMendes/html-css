@@ -108,7 +108,14 @@ div#flex-portfolio span {
     margin-top: 50px;
 }
 
-div#pacote-minimo {
+div#cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 30px;
+}
+
+div.pacote {
     display: flex;
     flex-direction: column;
     border: 1.5px solid rgb(33, 7, 180);
@@ -118,19 +125,19 @@ div#pacote-minimo {
     margin: auto;
 }
 
-div#img-minimo {
+div.img {
     
     height: 150px;
 
 }
 
-div#img-minimo img {
+div.img img {
     width: 100%;
     height: 100%;
 }
 
 
-div#texto-minimo {
+div.texto {
     width: 250px;
     display: flex;
     justify-content: space-between;
@@ -139,11 +146,11 @@ div#texto-minimo {
     
 }
 
-div#texto-minimo p {
+div.texto p {
     border-bottom: 2px solid blue;
 }
 
-div#pergunta {
+div.pergunta {
     display: flex;
     width: 250px;
     flex-direction: column;
@@ -151,7 +158,7 @@ div#pergunta {
     align-content: space-between;
 }
 
-div#respostas {
+div.respostas {
     display: flex;
     flex-direction: column;
     gap: 15px;
