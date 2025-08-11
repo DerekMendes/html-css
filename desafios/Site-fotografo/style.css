@@ -186,6 +186,11 @@ section#pacotes  h2#preco {
     background-color: #1b7ad3;
 }
 
+section#avaliacoes h2{
+    
+    padding: 30px;
+}
+
 .container-slider {
     display: flex;
     width: 100%;
@@ -233,6 +238,55 @@ section#pacotes  h2#preco {
     transform: rotate(180deg);
 }
 
+#avaliacao {
+    width: 250px;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px;
+}
+
+#avaliacao img {
+    border-radius: 50%;
+    margin-left: 55px;
+
+}
+
+#avaliacao h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+#avaliacao p {
+    text-align: justify;
+}
+
+div#texto-2 {
+    position: absolute;
+    margin-top: -308px;
+    margin-left: 10px;
+    padding: 30px 30px;
+    border: 1px solid black;
+    width: 250px;
+
+}
+
+div#texto-2 img {
+    border-radius: 50%;
+    margin-left: 55px;
+}
+
+div#texto-2 h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+div#texto-2 p {
+    text-align: justify;
+}
+
+footer {
+    background-color: darkslategray;
+}
 
 
 
