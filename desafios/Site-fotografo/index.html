@@ -63,29 +63,90 @@
                             <h1>Plano Base</h1>
                             <h2>Quantidade de fotos: 60 <br>Horas: 2 horas</h2>
                             <span>R$ 300</span>
-                            <button>Click Aqui</button>
+                            <button>Saiba Mais</button>
                         </div>
                     </div>
                     <div id="card">
-                        <div id="card-img"><img src="imagens/portrait-red.jpg" alt=""></div>
+                        <div id="card-img"><img src="imagens/sobre-mim1-1-red.jpg" alt=""></div>
                         <div>
                             <h1>Plano Intermediario</h1>
                             <h2>Quantidade de fotos: 100 <br>Horas: 3,5 horas</h2>
                             <span>R$ 500 </span>
-                            <button>Click Aqui</button>
+                            <button>Saiba Mais</button>
                         </div>
                     </div>
                     <div id="card">
-                        <div id="card-img"><img src="imagens/portrait-red.jpg" alt=""></div>
+                        <div id="card-img"><img src="imagens/familia-red.jpg" alt=""></div>
                         <div>
                             <h1>Plano Premium</h1>
                             <h2>Quantidade de fotos: 150 <br>Horas: 5 horas</h2>
                             <span>R$ 700</span>
-                            <button>Click Aqui</button>
+                            <button>Saiba Mais</button>
+                        </div>
+                    </div>
+                    <div id="card">
+                        <div id="card-img"><img src="imagens/casamento-red.png" alt=""></div>
+                        <div>
+                            <h1>Plano Premium</h1>
+                            <h2>Quantidade de fotos: 150 <br>Horas: 5 horas</h2>
+                            <span>R$ 700</span>
+                            <button>Saiba Mais</button>
                         </div>
                     </div>
                 </div>
                 </section>
+                <section id="avalicoes">
+                    <h2> Veja o que nossos clientes acharam</h2>
+                    <div class="container-slider">
+                        <button id="prev-button"><img src="imagens/arrow.png" alt="prev-button"></button>
+                        <div class="container-imagens">
+                            <p class="slider on">Ola Mundo</p> 
+                            <p class="slider"> Consegui fazer os slides</p>
+                        </div>
+                        <button id="next-button"><img src="imagens/arrow.png" alt="next-button"></button>
+                    </div>
+                </section>
     </main>
+
+    <script>
+        const slider = document.querySelectorAll('.slider');
+        const btnPrev = document.getElementById('prev-button');
+        const btnNext = document.getElementById ('next-button');
+
+        let currentSlide = 0;
+
+        function hideSlider() {
+            slider.forEach(item => item.classList.remove('on'))
+        }
+
+        function ShowSlider() {
+            slider[currentSlide].classList.add('on')
+        }
+
+        function nextSlider() {
+            hideSlider()
+            if(currentSlide == slider.length -1) {
+                currentSlide = 0
+            } else {
+                currentSlide++
+            }
+            ShowSlider()
+        }
+
+        function prevSlider() {
+            hideSlider()
+            if(currentSlide == 0) {
+                currentSlide = slider.length -1
+            } else {
+                currentSlide--
+            }
+            ShowSlider()
+        }
+
+
+
+        btnNext.addEventListener('click', nextSlider)
+        btnPrev.addEventListener('click', prevSlider)
+    </script>
 </body>
 </html>
