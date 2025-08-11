@@ -44,7 +44,8 @@ header ul a {
 
 header ul a:hover {
     text-decoration: underline;
-    background-color: #116dca;
+    background-color: darkslategray;
+    
 
     
 }
@@ -87,6 +88,13 @@ img#img-pequena {
 div#texto-sobre {
     font-size: 1em;
     
+    
+}
+
+div#texto-sobre p {
+    padding:  0 30px;
+    text-align: justify;
+    margin-left: -22px;
 }
 
 div#texto-sobre h2 {
@@ -285,10 +293,36 @@ div#texto-2 p {
 }
 
 footer {
+    margin-top: 100px;
     background-color: darkslategray;
+    padding: 40px 0 10px 0;
 }
 
+footer h3 {
+    color: white;
+    padding: 10px;
+}
 
+footer p {
+    color: #ffffffbd;
+    padding: 10px;
+}
 
+div#informacoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    width: 50px;
+}
+
+hr {
+    border: none;
+    width: 90%;
+    margin: auto;
+    height: 2px;
+    background-color: white;
+}
 
 
