@@ -9,6 +9,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #DAE3DA;
 }
@@ -217,7 +221,7 @@ section#avaliacoes h2{
 .container-slider {
     display: flex;
     width: 100%;
-    min-height: 100vw;
+   
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -339,5 +343,3 @@ hr {
     height: 2px;
     background-color: white;
 }
-
-

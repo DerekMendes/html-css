@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+    
+    #imagem-maior {
+        width: 400px;
+        height: 250px;
+    }
+
+    img#img-pequena {
+    position: absolute;
+    margin-left: -180px;
+    margin-top: -30px;
+    width: 300px;
+    height: 150px;
+}
+
+#card {
+    width: 240px;
+}
+
+#avaliacao {
+    width: 400px;
+    height: 300px;
+}
+
+#avaliacao img {
+    margin-left: 130px;
+}
+
+div#texto-2 {
+    width: 400px;
+    height: 300px;
+}
+
+div#texto-2 img {
+    margin-left: 130px;
+}
+}
+
+@media screen and (min-width: 992px) {
+
+    section#banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    width: 100vw;
+}
+
+    section#banner img {
+    grid-area: 1 / 1 / -1 / -1 ;
+    width: 100%;
+    height: 600px;
+}
+
+    #imagem-maior {
+        padding-left: 40px;
+        width: 300px;
+        height: 480px;
+    }
+
+    img#img-pequena {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -50px;
+    width: 230px;
+    height: 150px;
+}
+
+    section#Sobre{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 30px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+    div#texto-sobre {
+    font-size: 1em;
+    width: 550px;
+    
+    
+}
+
+    div#texto-sobre h2 {
+        text-align: right;
+        padding-right: 100px;
+        padding-bottom: 40px;
+
+    }
+
+    section#Portfolio h2 {
+        margin-top: 200px;
+    }
+
+    div#flex-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+    div#flex-portfolio img {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 450px;
+    margin: 30px 20px;
+    
+    
+}
+
+    section#pacotes  h2#preco {
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+#card {
+    width: 400px;
+    height: 450px;
+}
+
+#card img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+section#avaliacoes h2{
+    
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+#avaliacao {
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px;
+}
+
+#avaliacao img {
+    margin-left: 325px;
+    margin-top: -200px;
+}
+
+#avaliacao h3 {
+    font-size: 1.5em
+}
+
+#avaliacao p {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    font-size: 1.1em;
+}
+    }
+
+
