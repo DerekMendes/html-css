@@ -40,13 +40,28 @@ nav ul {
 header ul a {
     text-decoration: none;
     color: white;
+    position: relative;
+}
+
+header ul a::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+header ul a:hover::after {
+    width: 100%;
+
 }
 
 header ul a:hover {
-    text-decoration: underline;
     background-color: darkslategray;
-    
-
+    padding: 5px;
     
 }
 
