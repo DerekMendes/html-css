@@ -91,7 +91,7 @@ nav button {
 
 #texto-banner {
     grid-area: 1 / 1 / -1 / -1;
-    margin-top: 180px;
+    margin-top: 220px;
     padding: 30px;
     
 }
@@ -193,6 +193,21 @@ div#imagem-sobre img {
     width: 100%;
     height: 100%;
 }
+
+#destinos h2 {
+    width: 600px;
+    text-align: center;
+    margin-top: 70px;
+    color: #0046FF;
+    font-size: 2em;
+    margin-bottom: 20px
+}
+
+#destinos p {
+    font-size: 1.1em;
+    color: #0046FF;
+}
+
 
 
 
