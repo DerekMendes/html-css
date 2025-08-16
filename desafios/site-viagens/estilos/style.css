@@ -143,7 +143,7 @@ button:hover {
     margin: 0 auto;
 }
 
-#fundo {
+.fundo {
     background-color: #0046FF;
     height: 700px;
 }
@@ -303,10 +303,274 @@ div#imagem-sobre img {
     
 }
 
+#destinos h2 {
+    width: 600px;
+    text-align: center;
+    margin-top: 70px;
+    color: #0046FF;
+    font-size: 2em;
+    margin-bottom: 20px
+}
+
+#avaliacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 
+}
+
+#avaliacoes p {
+    width: 200px;
+}
+
+#imagens-avaliacoes {
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+}
+
+#imagens-avaliacoes img {
+    width: 100%;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#texto-avaliacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#video h2 {
+    text-align: center;
+    margin-top: 200px;
+    color: #0046FF;
+    font-size: 2em;
+    margin-bottom: 20px
+}
+
+#video h3 {
+    font-size: 1.3em;
+    color: #0046FF;
+    margin-bottom: 30px;
+}
+
+#video p {
+    font-size: 1.1em;
+    color: #0046FF;
+    margin-bottom: 100px;
+    height: 150px;
+    text-align: justify;
+
+}
+
+#pacotes h2 {
+    width: 600px;
+    text-align: center;
+    margin-top: 150px;
+    color: #0046FF;
+    font-size: 2em;
+    margin-bottom: 20px
+}
+
+#pacotes p {
+    font-size: 1.1em;
+    color: #0046FF;
+}
+
+#planos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 400px 1fr 400px 1fr 400px;
+    grid-template-rows: 300px 150px;
+}
 
 
+#planos img {
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+#lua-de-mel {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#aventura-patagonica {
+    grid-area: 1 / 3 / 2 / 4;
+
+}
+
+#europa {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+#texto-lua-de-mel {
+    grid-area: 2 / 1 / 3 / 2;
+    
+}
+
+#texto-patagonica {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+#texto-europa {
+    grid-area: 2 / 5 / 3 / 6;
+}
+
+.texto {
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 0 0 20px 20px;
+
+}
+
+#planos h3 {
+    padding: 10px 0 0 10px;
+    color: white;
+}
+
+#planos p {
+    padding-left: 10px;
+    color: rgb(180, 179, 179);
+}
+
+#planos button {
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 8px 50px;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgb(180, 179, 179);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+section#contatos {
+    background-color: #0046FF;
+    height: 400px;
+}
+
+#contato h2{
+    margin-top: 100px;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+
+}
+
+#contato p {
+    padding: 30px;
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#contato input#email {
+    
+    padding:  7px 120px;
+    border-radius: 50px;
+    text-align: center;
+    width: 500px;
+    border: none;
+}
+
+input#btn {
+    background-color: white;
+    border: none;
+    margin-left: 30px;
+    padding: 7px 40px;
+    border-radius: 50px;
+}
+
+section#outras-avaliacoes {
+    margin-top: 100px;
+}
+
+.imagem-av img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+#flex-avaliacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-av h3 {
+    text-align: center;
+}
+
+.texto-av p {
+    margin-top: 10px;
+    width: 350px;
+}
+
+.texto-av .material-symbols-outlined {
+    color: yellow;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+p span:nth-child(1){
+    margin-left: 100px;
+}
+
+
+footer {
+    margin-top: 180px;
+    background-color: #0046FF;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+#flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+footer #logo-footer {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.icons {
+    width: 50px;
+    
+}
+
+hr {
+    border: none;
+    width: 90%;
+    margin: auto;
+    height: 2px;
+    background-color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+}
+
+#whats-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
 
 
 

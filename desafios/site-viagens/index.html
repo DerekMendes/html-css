@@ -34,7 +34,7 @@
                 </div>
             </div>
         </section>
-        <section id="fundo">
+        <section class="fundo">
             <div id="sobre" class="container">
                 <div id="texto-sobre">
                     <h2>Quem Somos nós</h2>
@@ -94,11 +94,125 @@
                     <p>Desde 2800R$</p>
                 </div>
             </div>
-            
+        </section>
+        <section class="container" id="video">
+            <h2>Veja o que nossos clientes acharam</h2>
+            <p>A satisfação dos nossos viajantes é o que nos motiva a criar experiências únicas. Confira alguns depoimentos reais de quem já explorou o mundo conosco.</p>
+            <div id="avaliacoes">
+                <div>
+                    <iframe width="600" height="800" src="https://www.youtube.com/embed/0Myf7QPddXA?si=738McvcuwUwY7la6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div id="imagens-avaliacoes">
+                    <img src="imagens/pessoa-1.jpg" alt="">
+                    <img src="imagens/pessoa-4.jpg" alt="">
+                </div>
+                <div id="texto-avaliacoes">
+                    <div>
+                        <h3>Maria Fernandes - Lisboa, PT</h3>
+                        <p>Minha viagem para Paris foi impecável! A agência cuidou de todos os detalhes, desde o voo até os passeios.</p>
+                    </div>
+                    <div>
+                        <h3>João Silva – Porto, PT</h3>
+                        <p>Sempre sonhei em conhecer a Itália e, graças à Mundo & Destino, vivi uma experiência incrível! Ótimos preços e suporte em cada etapa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="pacotes">
+            <h2>Nossos Pacotes Exclusivos</h2>
+            <p>Escolha entre destinos únicos e viva experiências inesquecíveis.</p>
+            <div id="planos">
+                <div id="lua-de-mel">
+                    <img src="imagens/lua-mel.jpg" alt="">
+                </div>
+                <div id="aventura-patagonica">
+                    <img src="imagens/chile.jpg" alt="">
+                </div>
+                <div id="europa">
+                    <img src="imagens/europa.jpg" alt="">
+                </div>
+                <div id="texto-lua-de-mel" class="texto">
+                    <h3>Lua de Mel em Maldivas</h3>
+                    <p>37 Chalés . 52 pacotes</p>
+                    <button>Explore Agora</button>
+                </div>
+                <div id="texto-patagonica" class="texto">
+                    <h3>Aventura Patagonica</h3>
+                    <p>57 Hotéis . 97 pacotes</p>
+                    <button>Explore Agora</button>
+                </div>
+                <div id="texto-europa" class="texto">
+                    <h3>Europa Antiga</h3>
+                    <p>967 Hotéis . 198 pacotes</p>
+                    <button>Explore Agora</button>
+                </div>
+            </div>
+        </section>
+        <section class="fundo" id="contatos">
+            <div class="container" id="contato">
+                <h2>Entre em Contato Conosco</h2>
+                <p>Nossa equipe está pronta para ajudar a planejar a sua próxima viagem. Fale com a gente e tire todas as suas dúvidas.</p>
+                <form action="cadastro.php" method="get">
+                <p><input type="email" placeholder="Digite seu email" id="email"> <input type="submit" id="btn"></p>
+                </form>
+            </div>
+        </section>
+        <section id="outras-avaliacoes" class="container">
+            <div id="flex-avaliacoes">
+                <div>
+                    <div class="imagem-av">
+                        <img src="imagens/pessoa-1.jpg" alt="">
+                    </div>
+                    <div class="texto-av">
+                        <p><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span></p>
+                        <h3>Maria</h3>
+                        <p>Atendimento excelente e viagem sem preocupações!</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="imagem-av">
+                        <img src="imagens/pessoa-2.jpg" alt="">
+                    </div>
+                    <div class="texto-av">
+                        <p><span class="material-symbols-outlined" id="star">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span></p>
+                        <h3>Beatriz</h3>
+                        <p>Ótimos preços e suporte do início ao fim da viagem.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="imagem-av">
+                        <img src="imagens/pessoa-4.jpg" alt="">
+                    </div>
+                    <div class="texto-av">
+                        <p><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span></p>
+                        <h3>João Silva</h3>
+                        <p>Super recomendo! Minha experiência foi incrível.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-
+        <div>
+            <div id="flex-footer" class="container">
+                <div id="logo-footer">
+                    <span class="material-symbols-outlined">travel</span>
+                    <h1>Mundo & Destino</h1>
+                </div>
+                <div>
+                    <h3>Social Medias</h3>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="imagens/instagram-icon.png" alt="instagram" class="icons"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="imagens/facebook-icon.png" alt="facebook" class="icons"></a>
+                        <a href="https://www.whatsapp.com/?lang=pt_PT" target="_blank"><img src="imagens/whatsapp-icon.png" alt="whatsapp" class="icons"></a>
+                </div>
+            </div>
+            <hr>
+            <p>© 2025 Mundo & Destino. Todos os direitos reservados. </p>
+        </div>
     </footer>
+
+    <div id="whats-btn">
+        <a href="https://www.whatsapp.com/?lang=pt_PT" target="_blank"><img src="imagens/whats-btn.png" alt="botao do whatsapp" width="50px"></a>
+    </div>
 </body>
 </html>
