@@ -316,8 +316,6 @@ div#imagem-sobre img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
 
 #avaliacoes p {
@@ -569,8 +567,7 @@ footer p {
 #whats-btn {
     position: fixed;
     bottom: 20px;
-    right: 3
-    0px;
+    right: 30px;
 }
 
 

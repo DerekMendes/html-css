@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1266px) and (max-width: 1500px) {
+@media screen and (min-width: 1286px) and (max-width: 1500px) {
     #texto-sobre {
         padding-left: 30px;
     }
@@ -27,5 +27,136 @@
 
     footer {
         padding: 0 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1286px) {
+
+    div#sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #imagem-sobre {
+        display: none;
+
+    }
+
+    #texto-sobre {
+    margin-right: 0px;
+}
+
+    #cards-lugares img {
+        width: 550px;
+        height: 600px;
+    }
+
+    #destinos {
+        padding:  0 20px;
+    }
+
+    #cards-lugares {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 550px 1fr 550px;
+        grid-template-rows: 270px 60px 270px 50px 270px 60px 270px;
+        align-items: center;
+    }
+
+    #nova-york {
+    grid-area: 5 / 1 / -1 / 2;
+    }
+
+    #texto-nova-york {
+    grid-area: 6 / 1 / 7 / 2;
+    z-index: 2;
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 100px;
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+    
+}
+
+        #paris {
+    grid-area: 5 / 3 / -1 / 4;
+}
+
+    #texto-paris {
+    grid-area: 6 / 3 / 7 / 9;
+    z-index: 2;
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 100px;
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+    
+}
+
+    #destinos h2, #destinos p {
+    width: auto;
+    text-align: center;
+}
+
+    #video h2 {
+    
+}
+
+    #video p {
+    width: auto;
+    text-align: justify;
+    padding: 0 70px;
+}
+
+    #avaliacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    #imagens-avaliacoes {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    gap: 400px;
+}
+
+    #texto-avaliacoes {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+    #video p {
+    margin-bottom: 10px;
+}
+
+    iframe {
+    width: 900px;
+    height: 600px;
+}
+
+    #pacotes {
+    
+        padding: 0 20px;
+    }
+
+    #outras-avaliacoes {
+        padding: 0 20px;
+    }
+
+    footer {
+        padding: 0 20px;
     }
 }
