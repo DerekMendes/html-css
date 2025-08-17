@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1266px) and (max-width: 1500px) {
+    #texto-sobre {
+        padding-left: 30px;
+    }
+    
+    #imagem-sobre img {
+        padding-right: 30px;
+    }
+
+    #destinos {
+        padding:  0 30px;
+    }
+
+    #video {
+        padding: 0 30px;
+    }
+
+    #pacotes {
+        padding: 0 30px;
+    }
+
+    #outras-avaliacoes {
+        padding: 0 30px;
+    }
+
+    footer {
+        padding: 0 30px;
+    }
+}
