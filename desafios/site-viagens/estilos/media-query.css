@@ -160,3 +160,57 @@
         padding: 0 20px;
     }
 }
+
+@media screen and (min-width: 800px) and (max-width: 1270px) {
+
+    #planos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 650px 1fr;
+    grid-template-rows: 300px 150px 50px 300px 150px 50px 300px 150px;
+    
+}
+
+    #planos img {
+    width: 650px;
+    height: 450px;
+    border-radius: 20px;
+
+    }
+
+    #lua-de-mel {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+    #aventura-patagonica {
+    grid-area: 4 / 2 / 7 / 3;
+
+}
+
+    #europa {
+    grid-area: 7 / 2 / 9 / 3;
+    }
+
+    #texto-lua-de-mel {
+    grid-area: 2 / 2 / 3 / 3;
+    
+}
+
+    #texto-patagonica {
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+    #texto-europa {
+    grid-area: 8 / 2 / 9 / 3;
+}
+
+    #planos button {
+    margin-left: 180px;  
+    padding: 8px 100px;
+}
+
+section#outras-avaliacoes {
+    display: none;
+}
+
+}
