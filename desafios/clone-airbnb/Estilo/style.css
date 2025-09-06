@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+#first-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo a {
+    font-family: "Story Script", sans-serif;
+    display: flex;
+    margin: 30px;
+    color: #FF385C;
+    align-items: center;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#logo i {
+    font-size: 40px;
+
+}
+
+#itens {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.item {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+    margin-top: 16px;
+    color: #424242;
+}
+
+nav h2 {
+    font-size: 1.2em;
+}
+
+
+nav i {
+    background-color: #EBEBEB;
+    font-size: 18px;
+    padding: 10px 30px 10px 11px;
+    border-radius: 50px;
+    margin: 5px;
+}
