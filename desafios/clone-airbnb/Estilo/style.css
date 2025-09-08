@@ -63,6 +63,7 @@ nav {
 nav h2 {
     font-size: 1.1em;
     cursor: pointer;
+    padding: 10px;
 }
 
 
@@ -77,8 +78,7 @@ nav i {
 
 nav h2:hover {
     background-color: #EBEBEB;
-    padding: 10px;
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
 #pesquisa {
@@ -110,7 +110,7 @@ nav h2:hover {
     font-size: 1.8em;
     border: none;
     background-color: #FF385C;
-    padding: 20px;
+    padding: 15px;
     margin-right: 20px;
     border-radius: 50%;
     margin-top: 6px;
@@ -120,16 +120,72 @@ nav h2:hover {
     
 }
 
+#pesquisa button:hover {
+    background-color: #ec2247;
+}
+
 .preencher {
     display: flex;
     flex-direction: column;
 }
 
-.pesquisa-cor:hover, #pesquisa input:hover{
+.pesquisa-cor:hover {
+    background-color: #e7e7e7;
+    border-radius: 50px;
+}
+
+.pesquisa-cor:hover input{
     background-color: #e7e7e7;
     border-radius: 50px;
 
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 35px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px  1fr 10px  1fr 35px ;
+    grid-template-rows: 30px 30px 20px 290px;
+}
+
+.casas img {
+    width: 100%;
+    border-radius: 30px;
+    
+}
+
+.container h2 {
+    grid-area: 2 / 2 / 2 / 7;
+
+}
+
+#casa-1 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+#casa-2 {
+    grid-area: 4 / 4 / 5 / 5;
+}
+
+#casa-3 {
+    grid-area: 4 / 6 / 5 / 7;
+}
+
+#casa-4 {
+    grid-area: 4 / 8 / 5 / 9 ;
+}
+
+#casa-5 {
+    grid-area: 4 / 10 / 5 / 11;
+}
+
+#casa-6 {
+    grid-area: 4 / 12 / 5 / 13;
+
+}
+
+#casa-7 {
+    grid-area: 4 / 14 / 5 / 15
+}
+
 
 
 
