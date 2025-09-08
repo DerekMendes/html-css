@@ -142,51 +142,156 @@ nav h2:hover {
 
 .container {
     display: grid;
-    grid-template-columns: 35px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px  1fr 10px  1fr 35px ;
-    grid-template-rows: 30px 30px 20px 290px;
+    grid-template-columns: 40px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px  1fr 10px  1fr 40px ;
+    grid-template-rows: 30px 30px 20px 40px 290px;
+    
 }
 
 .casas img {
     width: 100%;
     border-radius: 30px;
+    cursor: pointer;
     
 }
 
 .container h2 {
-    grid-area: 2 / 2 / 2 / 7;
-
+    grid-area: 2 / 2 / 2 / 9;
+    cursor: pointer;
 }
 
 #casa-1 {
-    grid-area: 4 / 2 / 5 / 3;
+    grid-area: 4 / 2 / 6 / 3;
 }
 
 #casa-2 {
-    grid-area: 4 / 4 / 5 / 5;
+    grid-area: 4 / 4 / 6 / 5;
 }
 
 #casa-3 {
-    grid-area: 4 / 6 / 5 / 7;
+    grid-area: 4 / 6 / 6 / 7;
 }
 
 #casa-4 {
-    grid-area: 4 / 8 / 5 / 9 ;
+    grid-area: 4 / 8 / 6 / 9 ;
 }
 
 #casa-5 {
-    grid-area: 4 / 10 / 5 / 11;
+    grid-area: 4 / 10 / 6 / 11;
 }
 
 #casa-6 {
-    grid-area: 4 / 12 / 5 / 13;
+    grid-area: 4 / 12 / 6 / 13;
 
 }
 
 #casa-7 {
-    grid-area: 4 / 14 / 5 / 15
+    grid-area: 4 / 14 / 6 / 15
 }
 
+section p {
+    color: #545454;
+    font-size: 1em;
+    cursor: pointer;
+}
 
+section h3 {
+    cursor: pointer;
+}
+
+.setas {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-area: 2 / 14 / 3 / 15;
+    display: flex;
+    justify-self: end;
+    margin-right: 30px;
+    gap: 21px;
+    font-size: 1.5em;
+    align-self: center;
+    
+}
+
+.setas p {
+    color: rgb(49, 49, 49);
+    background-color: #EBEBEB;
+    padding: 3px 9px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.setas p:hover {
+    background: #adadad;
+    transform: scale(1.05);
+}
+
+.coracao-1 {
+    grid-area: 4 / 2 / 5 / 3;
+    align-self: center;
+    justify-self: end;
+    margin-right: 15px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.coracao-2 {
+    grid-area: 4 / 4 / 5 / 5;
+    align-self: center;
+    justify-self: end;
+    margin-right: 15px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.coracao-3 {
+    grid-area: 4 / 6 / 5 / 7;
+    align-self: center;
+    justify-self: end;
+    margin-right: 15px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.coracao-4 {
+    grid-area: 4 / 8 / 5 / 9;
+    align-self: center;
+    justify-self: end;
+    margin-right: 15px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.coracao-5 {
+    grid-area: 4 / 10 / 5 / 11;
+    align-self: center;
+    justify-self: end;
+    margin-right: 15px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.coracao-6 {
+    grid-area: 4 / 12 / 5 / 13;
+    align-self: center;
+    justify-self: end;
+    margin-right: 15px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.coracao-7 {
+    grid-area: 4 / 14 / 5 / 15;
+    align-self: center;
+    justify-self: end;
+    margin-right: 15px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.596);
+    transition: transform 0.3s ease;
+}
+
+.coracao:hover { 
+    color: #ec2247;
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 
 
