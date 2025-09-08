@@ -157,6 +157,7 @@ nav h2:hover {
 .container h2 {
     grid-area: 2 / 2 / 2 / 9;
     cursor: pointer;
+    color: #333333;
 }
 
 #casa-1 {
@@ -196,6 +197,8 @@ section p {
 
 section h3 {
     cursor: pointer;
+    font-size: 1.1em;
+    color: #333333;
 }
 
 .setas {
