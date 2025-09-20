@@ -30,15 +30,26 @@ header {
 
 #banner {
     width: 100vw;
+    
 }
 
 #banner img {
     width: 100%;
-    
 }
 
 .container {
-    margin-top: 40px;
+    padding-top: 40px;
+}
+
+#mostruario {
+    margin-top: -10px;
+    background-image: url("../imagens/fundo-site.png");
+    background-size:  100%;
+    background-repeat: repeat;
+
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
 }
 
 #mostruario h1 {
@@ -60,6 +71,7 @@ header {
 }
 
 .item {
+    
     padding: 15px;
     border-radius: 10px;
     box-shadow: 4px 4px 9px 2px rgba(0, 0, 0, 0.212);
@@ -67,6 +79,7 @@ header {
     display: flex;
     flex-direction: column;
 
+    margin-right: 30px;
     margin-bottom: 40px;
 
 }
