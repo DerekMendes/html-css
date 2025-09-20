@@ -30,11 +30,18 @@ header {
 
 #banner {
     width: 100vw;
-    
+    -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 92%, rgba(0, 0, 0, 0) 100%);
+    mask-repeat: no-repeat;
+    mask-size: cover;
 }
 
 #banner img {
     width: 100%;
+    
 }
 
 .container {
@@ -144,16 +151,18 @@ button:hover {
 
 #descricao-doces img {
     width: 150px;
+    height: 230px;
 }
 
 #texto-doces-esquerda p {
     margin-left: 15px;
-    width: 200px;
+    width: 150px;
     
 }
 
 #texto-doces-direita p {
     width: 200px;
+    width: 150px;
 }
 
 #texto-doces-esquerda h3, #texto-doces-direita h3 {
@@ -164,18 +173,44 @@ button:hover {
 }
 
 #texto-doces-esquerda p, #texto-doces-direita p {
-    font-size: 0.8em;
+    font-size: 0.85em;
+    
     
     
 }
 
 #descricao-doces button {
     margin-top: 20px;
-    margin-left: 45px;
+    margin-left: 25px;
     background-color: #9E182B;
     color: white;
     border: none;
     padding: 10px;
     border-radius: 20px;
     transition: transform 0.3s ease;
+}
+
+#galeria-bolo {
+    margin-top: 60px;
+    background-color: var(--cor-fundo);
+}
+
+#galeria-bolo h2 {
+    color: #f8577c;
+    padding-top: 30px ;
+    text-align: center;
+}
+
+#bolos {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+
+#bolos img {
+    flex-grow: 1;
+    margin: 0 7px 40px; 
 }
