@@ -10,7 +10,17 @@
 <body>
     <header>
        <div id="logo">Doce Encanto</div>
-       <div id="menu"><i class="fa-solid fa-bars"></i></div>
+       <div class="menu-container">
+           <div id="menu"><i class="fa-solid fa-bars"></i></div>
+
+        <ul id="menu-items">
+            <li><a href="#" data-target="banner">Home</a></li>
+            <li><a href="#" data-target="doces">Nossos Doces</a></li>
+            <li><a href="#" data-target="descricao-doces">Pesonalize Seu Doce</a></li>
+            <li><a href="#" data-target="galeria-bolo">Nossos bolos</a></li>
+        </ul>
+       </div>
+        
        
     </header>
     <main>
@@ -91,6 +101,39 @@
             </div>
         </section>
     </main>
+
+    <script>
+  const menuButton = document.getElementById('menu');
+  const menuItems = document.getElementById('menu-items');
+
+  // abrir/fechar menu
+  menuButton.addEventListener('click', () => {
+    menuItems.classList.toggle('open');
+  });
+
+  // rolar até a seção com offset e fechar menu ao clicar
+  document.querySelectorAll('#menu-items a').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const targetId = link.getAttribute('data-target');
+      const section = document.getElementById(targetId);
+      
+      if(section) {
+        const headerOffset = 90; // distância em px acima da seção
+        const elementPosition = section.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth" // scroll suave
+        });
+      }
+
+      // fecha o menu após clicar
+      menuItems.classList.remove('open');
+    });
+  });
+  </script>
     <footer>
         
     </footer>

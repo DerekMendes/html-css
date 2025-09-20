@@ -25,6 +25,65 @@ header {
     color: #f8577c;
 }
 
+.menu-container {
+  position: relative; /* necessário para posicionar o menu absoluto dentro */
+  display: flex;
+  justify-content: flex-end; /* ícone à direita */
+  
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+/* botão hambúrguer */
+#menu {
+  cursor: pointer;
+  z-index: 2; /* acima do menu */
+}
+
+/* menu escondido inicialmente */
+#menu-items {
+  position: absolute; /* tira do fluxo normal */
+  top: 40px; /* distancia do topo do ícone */
+  right: 0; /* alinha à direita */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  width: 150px; /* ajuste conforme necessário */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+/* links do menu */
+#menu-items li {
+  padding: 10px;
+}
+
+#menu-items li a {
+  text-decoration: none;
+  color: #f8577c;
+  display: block;
+}
+
+#menu-items li a:hover {
+
+    color: #c74564;
+    
+}
+
+/* menu aberto */
+#menu-items.open {
+  max-height: 800px;
+  transition: max-height 0.3s ease-in;
+  width: 200px;
+}
+
 #banner {
     width: 100vw;
     -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%);
@@ -35,6 +94,8 @@ header {
     mask-repeat: no-repeat;
     mask-size: cover;
 }
+
+
 
 #banner img {
     width: 100%;
@@ -57,15 +118,12 @@ header {
 }
 
 #mostruario h1 {
+    margin-top: 70px;
     text-align: center;
     color: white;
     background-color: #9e182ca8;
 }
 
-#mostruario p {
-    text-align: center;
-    
-}
 
 #doces {
     margin-top: 40px;
@@ -209,5 +267,5 @@ button:hover {
 
 #bolos img {
     flex-grow: 1;
-    margin: 0 7px 40px; 
+    margin: 10px 5px;
 }
