@@ -18,6 +18,8 @@
             <li><a href="#" data-target="doces">Nossos Doces</a></li>
             <li><a href="#" data-target="descricao-doces">Pesonalize Seu Doce</a></li>
             <li><a href="#" data-target="galeria-bolo">Nossos bolos</a></li>
+            <li><a href="#" data-target="formulario">Encomende</a></li>
+            
         </ul>
        </div>
         
@@ -26,6 +28,8 @@
     <main>
         <section id="banner">
             <img src="imagens/banner.jpeg" alt="">
+            <h1>Prazer em todas as mordidas!</h1>
+            <button>Encomende Já</button>
         </section>
 
         <section class="container" id="mostruario">
@@ -100,6 +104,39 @@
                 <img src="imagens/bolo-4.jpeg" alt="">
             </div>
         </section>
+
+        <section id="formulario">
+            <form action="pedido" method="get">
+                <p>
+                    <label for="nome"></label>
+                    <input type="text" id="nome" placeholder="Seu Nome">
+
+                    <label for="encomenda"></label>
+                    <select name="estado" id="encomenda">
+
+                <option value="" selected>Tipo de encomenda</option>
+                    <option value="bolo">Bolo</option>
+                    <option value="cupcakes">Cupcake</option>
+                    <option value="brigadeiros">Brigadeiros</option>
+                    
+                </p>
+                <p>
+                    <label for="peso"></label>
+                    <input type="number" name="" id="peso" placeholder="Quantos kg/unidades">
+
+                     <label for="tel"></label>
+                    <input type="tel" autocomplete="tel"  placeholder="(xx)xxxx-xxxx">
+                </p>
+                <p>
+                    <label for="pedido"></label>
+                    <textarea name="msg" id="imsg" cols="25" rows="4" placeholder="Sua Mensagem"></textarea>
+                </p>
+                <p id="botoes">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
     </main>
 
     <script>
@@ -135,7 +172,21 @@
   });
   </script>
     <footer>
-        
+         <div id="final">
+             <div>
+                 <h2>Doce <i class="fa-solid fa-candy-cane"></i> <br>Encanto</h2>
+
+             </div>
+             <div id="sociais">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-phone"></i>
+             </div>
+         </div>
+         <div id="direitos">
+             <h2>© 2025 Doce Encanto – Todos os direitos reservados.</h2>
+         </div>
     </footer>
 </body>
 </html>

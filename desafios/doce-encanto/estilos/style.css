@@ -2,9 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Story+Script&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
 :root {
     --cor-fundo: #f0e4df;
-
 }
 
 
@@ -95,6 +96,32 @@ html {
     mask-size: cover;
 }
 
+#banner h1 {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    z-index: 2;
+    font-size: 3em;
+    width: 200px;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 1000;
+    font-family: "Rouge Script", cursive;
+}
+
+#banner button {
+    background-color: #9E182B;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+
+    position: absolute;
+    top: 450px;
+    right: 15px;
+    z-index: 2;
+}
 
 
 #banner img {
@@ -142,8 +169,7 @@ html {
     background-color: white;
     display: flex;
     flex-direction: column;
-
-    margin-right: 30px;
+    margin: 0 10px;
     margin-bottom: 40px;
 
 }
@@ -261,11 +287,122 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 40px;
+    align-content: space-around;
+    margin-top: 30px;
+    height: 650px;
     
 }
 
-#bolos img {
-    flex-grow: 1;
-    margin: 10px 5px;
+#formulario {
+    background-color: var(--cor-fundo);
+    padding-top: 80px;
+    
 }
+
+#formulario form {
+
+    background-color: #751221;
+    width: 100vw;
+    padding-top: 40px;
+    padding-left: 20px;
+    
+    
+}
+
+#formulario p {
+    margin: 10px;
+    
+    
+}
+
+#formulario input {
+    border: none;
+    width: 160px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #97172a;
+    border-radius: 4px;
+    
+}
+
+#formulario ::placeholder, p option, select  {
+    color: white;
+}
+
+#formulario select {
+    padding: 10px;
+    width: 160px;
+    background-color: #97172a;
+    border-radius: 4px;
+}
+
+#formulario textarea {
+    width: 325px;
+    background-color: #97172a;
+    border-radius: 4px;
+}
+
+#botoes input {
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+#botoes input:hover {
+    background-color: #f8577c;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: -10px;
+    background-color: var(--cor-fundo);
+    padding: 80px 0 0 0;
+}
+
+#final {
+    
+    padding: 30px;
+    background-color: #751221;
+    display: flex;
+    justify-content: space-between;
+    color: #f8577c;
+
+    align-items: center;
+}
+
+#sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#sociais i {
+    font-size: 2em;
+    color: white;
+    
+    transition: transform 0.3s ease;
+}
+
+#sociais i:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+
+#direitos {
+    background-color: #2c060c;
+    font-size: 0.5em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 13px;
+    color: white;
+
+}
+
+
+
+
