@@ -24,6 +24,7 @@ header {
     font-size: 1.6em;
     font-weight: 700;
     color: #f8577c;
+    
 }
 
 .menu-container {
@@ -31,6 +32,10 @@ header {
   display: flex;
   justify-content: flex-end; /* ícone à direita */
   
+}
+
+body {
+    width: 100vw;
 }
 
 html {
@@ -41,6 +46,10 @@ html {
 #menu {
   cursor: pointer;
   z-index: 2; /* acima do menu */
+}
+
+#menu-desktop {
+    display: none;
 }
 
 /* menu escondido inicialmente */
@@ -125,7 +134,8 @@ html {
 
 
 #banner img {
-    width: 100%;
+    width: 100vw;
+    max-height: 1150px;
     
 }
 
@@ -137,7 +147,7 @@ html {
     margin-top: -10px;
     background-image: url("../imagens/imagem-fundo-3.jpeg");
     background-size:  100%;
-    background-repeat: repeat;
+    background-repeat: repeat-y;
 
     position: relative;
     width: 100vw;
@@ -184,6 +194,7 @@ html {
     font-size: 0.9em;
     width: 250px;
     color: rgb(66, 65, 65);
+    text-align: center;
 
 }
 
@@ -238,12 +249,14 @@ button:hover {
 #texto-doces-esquerda p {
     margin-left: 15px;
     width: 150px;
+    font-size: 0.85em;
     
 }
 
 #texto-doces-direita p {
     width: 200px;
     width: 150px;
+    font-size: 0.85em;
 }
 
 #texto-doces-esquerda h3, #texto-doces-direita h3 {
@@ -251,13 +264,6 @@ button:hover {
     color: #f8577c;
     font-size: 1.3em;
     margin-bottom: 8px;
-}
-
-#texto-doces-esquerda p, #texto-doces-direita p {
-    font-size: 0.85em;
-    
-    
-    
 }
 
 #descricao-doces button {
@@ -302,7 +308,6 @@ button:hover {
 #formulario form {
 
     background-color: #751221;
-    width: 100vw;
     padding-top: 40px;
     padding-left: 20px;
     
@@ -358,7 +363,7 @@ button:hover {
 footer {
     margin-top: -10px;
     background-color: var(--cor-fundo);
-    padding: 80px 0 0 0;
+    padding: 120px 0 0 0;
 }
 
 #final {

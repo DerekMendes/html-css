@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
     <title>Doce Encanto</title>
     <script src="https://kit.fontawesome.com/4339b883bd.js" crossorigin="anonymous"></script>
 </head>
@@ -14,6 +15,14 @@
            <div id="menu"><i class="fa-solid fa-bars"></i></div>
 
         <ul id="menu-items">
+            <li><a href="#" data-target="banner">Home</a></li>
+            <li><a href="#" data-target="doces">Nossos Doces</a></li>
+            <li><a href="#" data-target="descricao-doces">Pesonalize Seu Doce</a></li>
+            <li><a href="#" data-target="galeria-bolo">Nossos bolos</a></li>
+            <li><a href="#" data-target="formulario">Encomende</a></li>
+            
+        </ul>
+        <ul id="menu-desktop">
             <li><a href="#" data-target="banner">Home</a></li>
             <li><a href="#" data-target="doces">Nossos Doces</a></li>
             <li><a href="#" data-target="descricao-doces">Pesonalize Seu Doce</a></li>
@@ -120,6 +129,7 @@
                     <option value="brigadeiros">Brigadeiros</option>
                     
                 </p>
+
                 <p>
                     <label for="peso"></label>
                     <input type="number" name="" id="peso" placeholder="Quantos kg/unidades">

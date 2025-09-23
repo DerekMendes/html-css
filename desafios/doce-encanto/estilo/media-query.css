@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 420px) { 
+
+    #banner h1 {
+        font-size: 3.5em;
+        top: 80px;
+        right: 0px;
+    }
+
+    #banner button {
+        top: 580px;
+        padding: 20px;
+    }
+
+
+    #descricao-doces img {
+        width: 220px;
+        height: 270px;
+    }
+
+    #texto-doces-esquerda p {
+        width: 190px;
+        font-size: 1em ;
+    }
+
+    #texto-doces-direita p {
+        width: 190px;
+        font-size: 1em ;
+    }
+
+    #texto-doces-esquerda h3, #texto-doces-direita h3 {
+        font-size: 1.6em;
+    
+    }
+
+    #descricao-doces button { 
+        padding: 15px;
+        border-radius: 25px;
+        margin-left: 30px;
+    }
+
+    #galeria-bolo img {
+        width: 44vw;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    #galeria-bolo h2 {
+        font-size: 1.8em;
+    }
+
+    #galeria-bolo {
+        padding-bottom: 120px;
+    }
+
+    #formulario form {
+       padding-left: 20%;
+       padding-bottom: 15px;
+    }
+
+}
+
+@media screen and (min-width:900px) { 
+
+    /* header {
+        justify-content: space-around;
+    }
+
+    header #menu {
+        display: none;
+    }
+
+    header #menu-items {
+        display: flex;
+        z-index: 3;
+    }
+
+    #menu-desktop {
+        display: flex;
+        font-size: 0.8em;
+        list-style: none;
+        gap: 10px;
+    }
+
+    #menu-desktop a {
+        text-decoration: none;
+        
+    } */
+
+    #banner h1 {
+        width: 350px;
+        font-size: 6em;
+        top: 80px;
+        right: 20px;
+    }
+
+    #banner button {
+        top: 930px;
+        padding: 25px 50px;
+        border-radius: 10px;
+        right: 70px;
+    }
+
+    #descricao-doces img {
+        width: 340px;
+        height: 310px;
+    }
+
+    #texto-doces-esquerda p {
+        width: 400px;
+        font-size: 1.4em ;
+    }
+
+    #texto-doces-direita p {
+        width: 400px;
+        font-size: 1.4em ;
+    }
+
+    #texto-doces-esquerda h3, #texto-doces-direita h3 {
+        font-size: 2em;
+    
+    }
+
+    .descricao-direita {
+        margin: 150px 0 ;
+    }
+
+    #descricao-doces button { 
+        padding: 20px 30px;
+        border-radius: 65px;
+        margin-left: 120px;
+        font-size: 1.1em;
+    }
+
+    #galeria-bolo img {
+        width: 44vw;
+        height: 40vh;
+        margin-top: 20px;
+    }
+
+    #galeria-bolo {
+        padding-bottom: 240px;
+    }
+
+    #formulario input {
+        width: 300px;
+    }
+
+    #formulario select {
+        width: 300px;
+    }
+
+    #formulario textarea {
+        width: 605px;
+        height: 150px;
+    }
+
+}
+
+
