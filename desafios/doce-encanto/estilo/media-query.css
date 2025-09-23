@@ -63,31 +63,6 @@
 
 @media screen and (min-width:900px) { 
 
-    /* header {
-        justify-content: space-around;
-    }
-
-    header #menu {
-        display: none;
-    }
-
-    header #menu-items {
-        display: flex;
-        z-index: 3;
-    }
-
-    #menu-desktop {
-        display: flex;
-        font-size: 0.8em;
-        list-style: none;
-        gap: 10px;
-    }
-
-    #menu-desktop a {
-        text-decoration: none;
-        
-    } */
-
     #banner h1 {
         width: 350px;
         font-size: 6em;
@@ -123,8 +98,15 @@
     }
 
     .descricao-direita {
-        margin: 150px 0 ;
+        margin: 150px auto ;
+        max-width: 1200px;
     }
+
+    .descricao-esquerda {
+        margin: 150px auto ;
+        max-width: 1200px;
+    }
+    
 
     #descricao-doces button { 
         padding: 20px 30px;
@@ -157,5 +139,67 @@
     }
 
 }
+
+@media screen and (min-width:1200px) { 
+
+     header {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header #menu {
+        display: none;
+    }
+    
+
+    header #menu-items {
+        display: flex;
+        z-index: 3;
+    }
+
+    #menu-desktop {
+        margin-right: 30px;
+        display: flex;
+        font-size: 0.8em;
+        list-style: none;
+        gap: 30px;
+        justify-content: space-around
+    }
+
+    #menu-desktop a {
+        text-decoration: none;
+        color: #f8577c;
+        
+    } 
+
+    #menu-desktop a:hover  {
+        color: #bb2b4d;
+
+    }
+
+    #descricao-doces {
+        margin-top: 300px;
+    }
+
+    #galeria-bolo img {
+        width: 23%;
+        
+        margin-top: 20px;
+    }
+
+    #formulario input {
+        width: 600px;
+    }
+
+    #formulario select {
+        width: 600px;
+    }
+
+    #formulario textarea {
+        width: 1205px;
+        height: 150px;
+    }
+}
+
 
 
