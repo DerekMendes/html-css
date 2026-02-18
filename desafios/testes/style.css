@@ -49,5 +49,40 @@ nav .nav-links a {
 
 nav .nav-links a:hover {
     color: var(--cor-secundaria);
+    transition: color 0.3s;
 }
 
+.hero {
+    background-color: var(--cor-background);
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+
+}
+
+.hero #frase-chamativa h1 {
+    font-size: clamp(2rem, 4vw, 7rem);
+    max-width: 900px;
+    color: var(--cor-primaria);
+
+}
+
+.hero #frase-chamativa h2 {
+    color: var(--cor-texto-secundario);
+    max-width: 900px;
+    font-size: clamp(1.5rem, 4vw, 6rem);
+}
+
+#btn-hero {
+    background-color: var(--cor-acento);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#btn-hero a {
+    color: white;
+    text-decoration: none;
+}

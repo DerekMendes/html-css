@@ -4,11 +4,12 @@
 
     nav .nav-links {
         flex-direction: column;
-        align-items: ;
+        align-items: center;
+        font-size: 1.3em;
     }
 
-    nav .nav-links a {
-    margin: 2px 10px;
+    nav .nav-links li {
+    margin: 3px 0px;
     
 }
 }
