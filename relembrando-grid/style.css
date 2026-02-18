@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+}
+
+#galeria {
+    max-width: 100vw;
+    display: grid;
+
+    grid-template-columns:30vw 25vw 5vw 30vw;
+    gap: 10px;
+    grid-template-rows: 30px 150px 150px 150px;
+}
+
+#destaque {
+    grid-area: 2 / 1 / 4 / 3;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2em;
+
+}
+
+ #numero-1 {
+    grid-area: 2 / 3 / 3 / 5;
+    background-color: rgb(2, 177, 177);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2em;
+
+}
+
+#numero-2 {
+    grid-area: 3 / 3 / 4 / 5;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#numero-3 {
+    grid-area: 4 / 1 / 5 / 2;
+    background-color: yellow;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+#numero-4 {
+    grid-area: 4 / 2 / 5 / 4;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2em;
+
+}
+
+#numero-5 {
+    grid-area: 4 / 4 / 5 / 5;
+    background-color: rgb(245, 13, 13);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2em;
+} 
