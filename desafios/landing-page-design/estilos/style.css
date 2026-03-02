@@ -103,6 +103,7 @@ span#menu-hamburguer {
 
 #texto-hero p {
     color: rgb(206, 203, 203);
+    font-size: 1.1em;
     margin: 30px auto ;
     text-align: start;
 }
@@ -424,7 +425,7 @@ span#menu-hamburguer {
 footer {
     display: flex;
     justify-content: space-between;
-    height: 220px;
+    
 }
 
 #Sobre-footer {
@@ -433,6 +434,7 @@ footer {
     justify-content: space-between;
     margin-top: 100px;
 }
+
 
 #Sobre-footer p {
     font-size: 1.1em;
@@ -453,7 +455,7 @@ footer {
     margin-top: 100px;
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 30px;
 }
 
@@ -469,4 +471,6 @@ footer {
     font-size: 1.1em;
     font-weight: 100px;
     color: rgb(88, 88, 88);
+
+
 }
