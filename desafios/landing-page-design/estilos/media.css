@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 420px) { 
+
+header nav {
+    margin: 0 20px;
+}
+
+#navbar li.itens-nav {
+    display: none;
+}   
+
+header #log-in {
+    display: none
+}
+
+span#menu-hamburguer {
+    display: block;
+    cursor: pointer;
+}
+
+nav a:hover::after {
+    width: 0%;
+}
+
+#hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 430px;
+}
+
+#texto-hero {
+    grid-row: 2;
+}
+
+#texto-hero h1 {
+    margin: 40px auto 0 auto;
+}
+
+#texto-hero p {
+    padding: 0 30px;
+}
+
+#itens {
+    flex-direction: column;
+    align-items: center;
+}
+
+.estilos-item {
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.texto-estilo {
+    margin-bottom: 40px;
+}
+
+.imagem-estilo img {
+    width: 300px;
+    
+}
+
+footer {
+    display: none;
+}
+
+}

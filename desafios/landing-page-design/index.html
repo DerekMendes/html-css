@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interior Design</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
-</style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+    </style>
 <script src="https://kit.fontawesome.com/4339b883bd.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,15 +16,16 @@
         <nav>
             <ul id="navbar">
                 <li><a href="#"><span class="destaque-header">D.</span></a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li class="itens-nav"><a href="#">Home</a></li>
+                <li class="itens-nav"><a href="#">Shop</a></li>
+                <li class="itens-nav"><a href="#">Sobre</a></li>
+                <li class="itens-nav"><a href="#">Contato</a></li>
             </ul>
             <ul id="log-in">
                 <li><a href="#">Sign in</a></li>
                 <li><a href="#"><span class="destaque-header">Log in</span></a></li>
             </ul>
+            <span id="menu-hamburguer"><i class="fa-solid fa-bars"></i></span>
         </nav>
     </header>
     <main>
@@ -214,9 +216,34 @@
             <button>Comece Já!</button>
         </div>
     </section>
-    <section>
-        
-    </section>
     </main>
+    <footer class="container">
+        <div id="Sobre-footer">
+           <a href="#"><span class="destaque-footer">D.</span></a>
+           <p>Onde cada textura abraça, <br>
+            cada luz valoriza, <br>
+            cada linha tem intenção.</p>
+        </div>
+        <div id="footer-itens">
+            <div id="navegacao">
+                <h3>Navegação</h3>
+                <ul>
+                    <li>Suporte</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                </ul>
+            </div>
+            <div id="legal">
+                <h3>Legal</h3>
+                <ul>
+                    <li>Licenças</li>
+                    <li>item 2</li>
+                    <li>item 3</li>                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <br><br>
 </body>
 </html>

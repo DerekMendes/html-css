@@ -72,6 +72,10 @@ header #log-in {
     color: black;
 }
 
+span#menu-hamburguer {
+    display: none;
+}
+
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -176,6 +180,7 @@ header #log-in {
 .container {
     max-width: 1200px;
     margin: auto;
+    padding: 0 15px;
 }
 
 .estilos-item {
@@ -414,4 +419,54 @@ header #log-in {
     border-radius: 2px;
     border: none;
     font-size: 1.1em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 220px;
+}
+
+#Sobre-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#Sobre-footer p {
+    font-size: 1.1em;
+    font-weight: 100px;
+    width: 250px;
+    color: rgb(88, 88, 88);
+    margin-bottom: 10px;
+}
+
+.destaque-footer {
+    background-color: black;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+#footer-itens {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#footer-itens h3 {
+    font-size: 1.7em;
+    font-weight: 1000;
+    color: black;
+}
+
+
+#footer-itens li {
+    list-style: none;
+    font-size: 1.1em;
+    font-weight: 100px;
+    color: rgb(88, 88, 88);
 }
