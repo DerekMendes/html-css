@@ -134,7 +134,7 @@ span#menu-hamburguer {
     text-align: center;
 }
 
-#seguranca h1 {
+#seguranca h2 {
     color: rgba(0, 0, 0, 0.733);
     margin-bottom: 50px;
     font-size: 2.6em;
@@ -164,7 +164,7 @@ span#menu-hamburguer {
     font-size: 1.5em;
 }
 
-.item .texto h2 {
+.item .texto h3 {
     font-size: 1.6em;
     font-weight: 1000;
     color: black;
@@ -192,7 +192,7 @@ span#menu-hamburguer {
     margin-top: 200px;
 }
 
-.texto-estilo h2 {
+.texto-estilo h3 {
     font-size: 2.3em;
     font-weight: 1000;
     color: black;
@@ -225,7 +225,7 @@ span#menu-hamburguer {
     
 }
 
-#area-avaliacoes h1 {
+#area-avaliacoes h2 {
     text-align: center;
     color: rgba(0, 0, 0, 0.733);
     font-size: 2.6em;
@@ -286,7 +286,7 @@ span#menu-hamburguer {
     margin-top: 150px;
 }
 
-#produtos h1 {
+#produtos h2 {
     text-align: center;
     color: rgba(0, 0, 0, 0.733);
     font-size: 2.6em;
@@ -325,7 +325,7 @@ span#menu-hamburguer {
     margin-top: 100px;
 }
 
-#perguntas h1 {
+#perguntas h2 {
     text-align: center;
     color: rgba(0, 0, 0, 0.733);
     margin-bottom: 80px;
