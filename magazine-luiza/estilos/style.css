@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to bottom, #0075E2 150px, #F0F3F4 500px) no-repeat; 
+    
+}
+
+.container {
+    padding: 0 20px;
+}
+
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 15px;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.buscar {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.buscar input {
+    width: 100%;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.Seu-cep {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#CEP {
+    align-items: center;
+    font-weight: 100;
+    font-size: 0.9em;
+    display: flex;
+    gap: 5px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.Produtos {
+    margin-top: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.principais-itens {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.principais-itens .item {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    border-radius: 6px;
+    background-color: white;
+    padding: 5px;
+    height: 180px;
+    
+}
+
+.principais-itens .item h3 {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.principais-itens .item img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+
+.principais-itens .item span {
+    font-size: 0.6em;
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.principais-itens .item p {
+    margin-top: 7px;
+    font-size: 0.7em;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.principais-itens .item i {
+    color: #EAC600;
+}
+
+
