@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Crie Sua conta</h1>
+
+        <form action="cadastro" method="post">
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="form-group">
+                    <label for="name">Nome completo</label>
+                    <input type="text" id="name" required>
+
+                    <label for="email">Digite seu email</label>
+                    <input type="email" id="email" required>
+
+                    <label for="tel">Seu Telefone</label>
+                    <input type="tel" id="tel" required>
+                </div>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Genero</legend>
+                <div class="form-group">
+                    <label for="genero">
+                    <input type="radio" id="genero" value="Masculino"> Masculino </label>
+
+                    <label for="genero">
+                    <input type="radio" id="genero" value="Feminino"> Feminino </label>
+
+                    <label for="genero">
+                    <input type="radio" id="genero" value="nao-informar"> Prefiro nao informar </label>
+                </div>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Interesses</legend>
+                <div class="form-group">
+                    <label for="Interesses">
+                    <input type="checkbox" id="Interesses" value="Programacao"> Programacao </label>
+
+                    <label for="Interesses">
+                    <input type="checkbox" id="Interesses" value="Design"> Design </label>
+
+                    <label for="Interesses">
+                    <input type="checkbox" id="Interesses" value="Marketing"> Marketing </label>
+
+                    <label for="Interesses">
+                    <input type="checkbox" id="Interesses" value="Negocios"> Negocios </label>
+                </div>
+                
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Campo de Mensagem</legend>
+                <div class="form-group">
+                    <label for="Mensagem"> Digite sua Mensagem </label>
+                    <textarea name="Msg" id="Mensagem"></textarea>
+
+                </div>
+                
+            </fieldset>
+
+            <input type="submit">
+            <input type="reset">
+            
+            
+        </form>
+    </main>
+</body>
+</html>

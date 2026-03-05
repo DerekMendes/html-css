@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 243, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .container {
+    border-radius: 8px;
+    background-color: white;
+    max-width: 550px;
+    margin: auto;
+    padding:  0px 40px;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+fieldset {
+    margin-top: 50px;
+    
+}
+
+legend {
+    text-align: center;
+    
+}
+
+.form-group {
+    max-width: 400px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.form-group label {
+    font-weight: 1000;
+    font-size: 1em;
+    margin-bottom: -20px;
+}
+
+.form-group input{
+    padding: 10px;
+}
