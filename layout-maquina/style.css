@@ -41,6 +41,7 @@ i.check {
     
 }
 
+
 .ultimo {
     margin-left: auto;
 }
@@ -133,6 +134,7 @@ main {
     margin: 0 2px 2px 0;
 }
 
+
 .nav-main div {
     background-color: rgb(204, 202, 202);
     padding: 8px;
@@ -141,6 +143,12 @@ main {
     display: flex;
     align-items: center;
     color: rgb(1, 1, 82);
+    cursor: pointer;
+    transition: background-color 0.5s
+}
+
+.nav-main div:hover {
+    background-color: rgb(109, 109, 189);
 }
 
 .peca {
@@ -166,8 +174,17 @@ main {
     background-color: rgb(204, 202, 202);
     width: 35px;
     height: 35px;
-
+    transition: background-color 0.5s;
+    cursor: pointer;
+    
 }
+
+.peca-superior i:hover {
+    background-color: rgb(109, 109, 189);
+}
+
+
+
 
 .imagem {
     margin-top: 100px;
@@ -215,7 +232,15 @@ span p {
     justify-content: center;
     width: 35px;
     height: 35px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    
 }
+
+.item-estatistica i:hover {
+    background-color: rgb(109, 109, 189);
+}
+
 
 .gerais {
     grid-area: 2 / 2 / 3 / 3;
@@ -263,8 +288,16 @@ span p {
     height: 30px;
     border-radius: 2px;
     font-size: 0.9em;
+    transition: background-color 0.5s;
+    cursor: pointer;
     
 }
+
+.item-gerais i:hover {
+    background-color: rgb(109, 109, 189);
+}
+    
+
 
 .titulo-favorito {
     grid-area: 1 / 3 / 2 / 4;
